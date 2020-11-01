@@ -5,11 +5,23 @@ import 'package:flutter/material.dart';
 
 
 class EmployeeScreen extends StatefulWidget {
+
+
+
+
+
   @override
   EmployeeScreenState createState() => EmployeeScreenState();
 }
 
 class EmployeeScreenState extends State<EmployeeScreen> {
+
+  final employeeBloc = EmployeeBloc();
+
+
+
+
+
 
   @override
   void initState() {
